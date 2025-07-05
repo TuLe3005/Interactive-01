@@ -1,0 +1,317 @@
+/* This is google font import */
+@import url('https://fonts.googleapis.com/css2?family=Cardo:ital,wght@0,400;0,700;1,400&family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+/*This is heading 1 style */
+h1 {
+  font-family: "Cardo", serif;
+  font-weight: 700;
+  font-size: 48px;
+  font-style: normal;
+  text-align: center;
+}
+/*This is heading 2 style */
+h2 {
+  font-family: "Cardo", serif;
+  font-weight: 400;
+  font-size: 32px;
+  font-style: italic;
+  text-align: center;
+}
+/*This is paragraph style */
+p {
+  font-family: "Noto Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+}
+/*This is image 1 style */
+.image1 {
+  background-image: url(https://media.cnn.com/api/v1/images/stellar/prod/01jyg83vwj0rxwpyymbn8jjp5n.jpg?q=w_2000,c_fill/f_webp);
+  width: 100%;
+  max-width: 100vw;
+  height: 692px;
+  margin: 0 auto 0.5em auto;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+/* This is image sub-title */
+.subtitle p {
+  font-family: "Noto Sans", sans-serif;
+  font-weight: 300;
+  font-size: 16px; 
+}
+.subtitle {
+  font-family: "Noto Sans", sans-serif;
+  display: inline-block;
+  color:black;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 16px;}
+.gray {
+    display: inline-block;
+    color:#797979;
+}
+
+div {
+    text-align: left;
+}
+/* This is the image 1 sub-title */
+.center {
+    text-align: center;
+}
+/* This is the paragraph 1 style */
+.p1 {
+  font-family: "Noto Sans", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 16px;
+  max-width: 900px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 16px 0 0 0; 
+}
+/* This is image 2 sub-title */
+.image2-subtitle {
+    flex: 1;
+    padding: 128px 40px 128px 100px;
+    text-align: left;
+    max-width: 1000px;
+}
+/* This is the quote author */
+.image2-subtitle .right {
+  text-align: right;
+  display: block;
+  font-family: "Cardo", serif;
+  font-weight: 400;
+  font-size: 16px;
+  max-width: 600px; 
+  padding-left: 400px;
+}
+/* This image 2 subtitle style */
+.image2-caption {
+  max-width: 530px; 
+  text-align: left;
+  display: block;
+  line-height: 1.4;
+  text-align: left;
+}
+/* This is image 2 style */
+.image2 {
+  height: auto;
+  width: 100%;
+  max-width: 500px;
+  object-fit: cover;
+  vertical-align: middle;
+}
+/* This is paragraph 2 style */
+.container {
+    padding: 0 150px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+}
+/*This is image3 containter*/
+.image3-container {
+    background-color: black;
+    width: 100%;
+    max-width: 100vw;
+    height: 600px; 
+    margin: 0 auto 0.5em auto;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+/* This is paragraph 3 */
+h3 {
+  font-family: "Cardo", serif;
+  font-weight: 400;
+  font-size: 32px;
+  font-style: italic;
+  text-align: center;
+  color: white;   
+  max-width: 700px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 0;
+  padding: 36px 36px 0 36px;
+}
+.p3 {
+  font-family: "Noto Sans", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 16px;
+  max-width: 700px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 16px; 
+  color:rgb(255, 255, 255);
+  text-align: left;
+  padding: 16px;
+}
+  /* This is the horizontal line for heading */
+ .horizontal-line {
+    border: none;
+    border-top: 2px solid #afafaf;
+    height: 1px;
+    width: 500px;
+    margin: 32px auto 32px auto;
+ }
+/* This is paragraph 4 */
+.w1 {
+    font-weight: 300;
+    text-align: left;
+    opacity: 35%;
+    padding: 0 400px 0 0;
+ }
+.w2 {
+    font-weight: 400;
+    opacity: 60%;
+    padding: 0 150px 0 0;
+ }
+.w3 {
+    font-weight: 700;
+    opacity: 100%;
+    padding: 0 0 0 300px;
+ }
+ .paragraph4 {
+    padding: 0 270px 0 0;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    font-family: "Cardo", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 16px;
+}
+/* This is paragraph 5 */
+.p5 {
+    background-color: black;
+    width: 100%;
+    max-width: 100vw;
+    height: 326px; 
+    margin: 0 auto 0.5em auto;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 0 80px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: space-around;
+}
+.image5-title {
+    color:rgb(255, 255, 255);
+    font-family: "Noto Sans", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 16px;
+    max-width: 500px;
+    display: block;
+    margin-left: 10px;
+    margin-right: -300px;
+    padding: 16px; 
+    margin-top: 40px;
+    color:rgb(255, 255, 255);
+    text-align: left;
+}
+.image5 {
+    height: auto;
+    width: 400px;
+    max-width: 400px;
+    object-fit: cover;
+    vertical-align: middle;
+    padding: 35px 40px 0 20px;
+    display: block;
+}
+/* This is paragraph 3 author name */
+.author-name {
+    font-family: "Cardo", serif;
+    font-weight: 400;
+    font-size: 16px;
+    max-width: 600px; 
+    display: block;
+    padding: 0 0 0 0;
+    color:rgb(255, 255, 255);
+    text-align: right;
+}
+/* This is the horizontal line for image 1 */
+.horizontal-line2 {
+    padding: 2px 32px 0 32px;
+    border: none;
+    border-top: 1px solid #afafaf;
+    width: 680px;
+    margin: 0 auto;
+}
+/* This is the horizontal for image 2 */
+.horizontal-line3 {
+    padding: 0 36px 0 36px;
+    border: none;
+    border-top: 1px solid #afafaf;
+    width: 430px;
+}
+/* This is the Heading style */
+.line1 {
+    padding: 16px 0 0 0;
+    margin-bottom: 0;
+}
+.line2 {
+    padding: 0;
+    margin-top: 14px;
+}
+/* This is Image 3 caption */
+.image3-caption {
+  max-width: 530px; 
+  text-align: left;
+  display: block;
+  line-height: 1.4;
+  padding: 16px 40px 16px 16px;
+  margin: 0;
+  width: 450px;
+}
+/* This is the horizontal for image 3 */
+.horizontal-line4 {
+    border: none;
+    border-top: 1px solid #afafaf;
+    width: 400px;
+    margin-left: 20px
+}
+/* This is the horizontal for image 3 */
+body {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+/* This is the footer */
+a:link {
+  display: inline-block;
+  font-size: 16px;
+  font-family: "Noto Sans", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  font-style: normal;
+  text-align: center;
+  padding: 0;
+}
+.p6 {
+    background-color: black;
+    height: 150px; 
+    margin: 0 auto 0.5em auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width:100%
+}
+.footer-link a {
+    color:rgb(245, 245, 245);
+}
+.footer-link {
+    margin-top: 300px; 
+    text-align: center;
+    padding: 24px 0;
+    display: inline-block;
+}
